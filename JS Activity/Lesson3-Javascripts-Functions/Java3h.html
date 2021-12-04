@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript">
+    function changeStyle(){
+    var paragraph= document.getElementsByClassName("para");
+    
+    for( i= 0; I < paragraph.length;i++)
+    {
+      paragraph[i].style.fontStyle="italic";
+    }
+  }    
+  </script>
+
+  <title>Document</title>
+</head>
+<body>
+  <p class="para1"> Some text for this </p>
+  <p class="para1"> Some text for this </p>
+  
+  <button onclick= "changeStyle()"> Submit </button>
+</body>
+</html>
